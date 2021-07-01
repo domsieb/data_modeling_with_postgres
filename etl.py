@@ -7,7 +7,7 @@ from sql_queries import *
 
 def process_song_file(cur, filepath):
     # open song file
-    df = 
+    df = pd.read_csv(filepath)
 
     # insert song record
     song_data = 
